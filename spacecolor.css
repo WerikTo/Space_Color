@@ -8,3 +8,24 @@ body{
     min-height: 100vh;
     background: #2b1d5a;
 }
+.ferramentas{
+    width: auto;
+    height: 50px;
+    position: fixed;
+    left: 20%;
+    transform: translateX(-20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity .5s;
+    background: linear-gradient(to right, blue, pink);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.ferramentas div, button, input{
+    margin: 5px;
+}
+.ferramentas:hover{
+    cursor: pointer;
+}
