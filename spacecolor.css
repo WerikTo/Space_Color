@@ -24,7 +24,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url("https://user-images.githubusercontent.com/115472908/262023440-ce4283f2-63f4-4393-8945-fe0434530ccd.gif");
+  background: url("https://user-images.githubusercontent.com/115472908/262023440-ce4283f2-63f4-4393-8945-fe0434530ccd.gif");
 }
 .container{
   display: flex;
