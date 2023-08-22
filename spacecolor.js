@@ -8,7 +8,7 @@ clearCanvas = document.querySelector(".clear-canvas"),
 saveImg = document.querySelector(".save-img"),
 ctx = canvas.getContext("2d");
 
-// global variables with default value
+// variáveis ​​globais com valor padrão
 let prevMouseX, prevMouseY, snapshot,
 isDrawing = false,
 selectedTool = "brush",
@@ -16,34 +16,34 @@ brushWidth = 5,
 selectedColor = "#000";
 
 const setCanvasBackground = () => {
-    // setting whole canvas background to white, so the downloaded img background will be white
+    // definindo o fundo da tela inteira como branco, para que o plano de fundo do img baixado seja branco
     ctx.fillStyle = "#fff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = selectedColor; // setting fillstyle back to the selectedColor, it'll be the brush color
+    ctx.fillStyle = selectedColor; // definindo o estilo de preenchimento de volta para a cor selecionada, será a cor do pincel
 }
 
 window.addEventListener("load", () => {
-    // setting canvas width/height.. offsetwidth/height returns viewable width/height of an element
+    // definir largura/altura da tela.. largura/altura compensada retorna largura/altura visível de um elemento
     canvas.width = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
     setCanvasBackground();
 });
 
 const drawRect = (e) => {
-    // if fillColor isn't checked draw a rect with border else draw rect with background
+    // se a cor de preenchimento não estiver selecionada desenhe um retângulo com borda senão desenhe um retângulo com fundo
     if(!fillColor.checked) {
-        // creating circle according to the mouse pointer
+        // criando círculo de acordo com o ponteiro do mouse
         return ctx.strokeRect(e.offsetX, e.offsetY, prevMouseX - e.offsetX, prevMouseY - e.offsetY);
     }
     ctx.fillRect(e.offsetX, e.offsetY, prevMouseX - e.offsetX, prevMouseY - e.offsetY);
 }
 
 const drawCircle = (e) => {
-    ctx.beginPath(); // creating new path to draw circle
-    // getting radius for circle according to the mouse pointer
+    ctx.beginPath(); // criando um novo caminho para desenhar um círculo
+    // obtendo raio para círculo de acordo com o ponteiro do mouse
     let radius = Math.sqrt(Math.pow((prevMouseX - e.offsetX), 2) + Math.pow((prevMouseY - e.offsetY), 2));
-    ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI); // creating circle according to the mouse pointer
-    fillColor.checked ? ctx.fill() : ctx.stroke(); // if fillColor is checked fill circle else draw border circle
+    ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI); // criando círculo de acordo com o ponteiro do mouse
+    fillColor.checked ? ctx.fill() : ctx.stroke(); // se a cor de preenchimento estiver selecionada preencha o círculo caso contrário desenhe o círculo de borda
 }
 
 const drawTriangle = (e) => {
