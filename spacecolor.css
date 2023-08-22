@@ -162,4 +162,9 @@ section{
   bottom: 0;
   right: -30px;
   pointer-events: none;
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    object-position: 20px 10px; /* try 20% 10% */ 
+    border: 5px solid black;
 }
