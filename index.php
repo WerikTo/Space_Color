@@ -15,15 +15,15 @@
           <label class="title">Formas</label>
           <ul class="options">
             <li class="option tool" id="rectangle">
-              <img src="https://github.com/WerikTo/Space_Color/issues/6#issue-1859271936" height="22" width="22" alt="forma de retangulo">
+              <img src="https://user-images.githubusercontent.com/115472908/262023513-dbcea8e1-b39f-4610-882e-cb9b8175f75c.png" height="22" width="22" alt="forma de quadrado">
               <span>Quadrado</span>
             </li>
             <li class="option tool" id="circle">
-              <img src="https://github.com/WerikTo/Space_Color/issues/11#issue-1859275733" height="22" width="22" alt="forma de circulo">
+              <img src="formacirculo.png" height="22" width="22" alt="forma de circulo">
               <span>Círculo</span>
             </li>
             <li class="option tool" id="triangle">
-              <img src="https://github.com/WerikTo/Space_Color/issues/1#issue-1859258098" height="22" width="22" alt="forma de triangulo">
+              <img src="https://user-images.githubusercontent.com/115472908/262021483-fd5a1cd9-5872-4be1-a315-493fd7d17120.png" height="22" width="22" alt="forma de triangulo">
               <span>Triângulo</span>
             </li>
             <li class="option">
