@@ -162,7 +162,4 @@ section{
   bottom: 0;
   right: 0;
   pointer-events: none;
-  object-fit: cover;
-  object-position: 20px 10px; /* try 20% 10% */ 
-  border: 5px solid black;
 }
