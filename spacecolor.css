@@ -1,10 +1,10 @@
 @font-face {
   font-family: MarykateRegular;
-  src: url(../fontes/MarykateRegular.ttf);
+  src: url(MarykateRegular.ttf);
 }
 @font-face {
   font-family: BalsamiqSans;
-  src: url(../fontes/BalsamiqSans-Regular.ttf);
+  src: url(BalsamiqSans-Regular.ttf);
 }
 h1{
   margin: 0;
@@ -24,7 +24,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #2b1d5a url("https://github.com/WerikTo/Space_Color/issues/5#issue-1859271399");
+  background-image: url("https://github.com/WerikTo/Space_Color/issues/5#issue-1859271399");
 }
 .container{
   display: flex;
