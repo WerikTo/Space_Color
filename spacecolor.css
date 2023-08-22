@@ -160,6 +160,6 @@ section{
 #ia{
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -30px;
   pointer-events: none;
 }
