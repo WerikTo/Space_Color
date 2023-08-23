@@ -160,10 +160,5 @@ section{
 #ia{
   position: absolute;
   bottom: 0;
-  right: -30px;
+  right: 0;
   pointer-events: none;
-    width: 250px; /* width of container */
-    height: 284px; /* height of container */
-    object-fit: cover;
-    border: 5px solid black;
-}
