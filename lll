@@ -1,0 +1,82 @@
+create database desenhos;
+
+use desenhos;
+
+create table planetas(
+	idPlanetas int not null auto_increment,
+    mercurio mediumblob,
+    venus mediumblob,
+    terra mediumblob,
+    marte mediumblob,
+    jupter mediumblob,
+    saturno mediumblob,
+    urano mediumblob,
+    netuno mediumblob, 
+    primary key (idPlanetas)
+);
+
+create table estrelas(
+        idEstrelas int not null auto_increment,
+    estrelinha mediumblob,
+    sol mediumblob,
+    belatrix mediumblob,
+    sirius mediumblob,
+    vega mediumblob,
+    altair mediumblob,
+    primary key (idEstrelas)
+);
+
+create table satopios(
+        idSatopios int not null auto_increment,
+    hubble mediumblob,
+    jameswebb mediumblob,
+    spitzer mediumblob,
+    kepler mediumblob,
+    cheops mediumblob,
+    primary key (idSatopios)
+);
+
+create table foguetes(
+        idFoguetes int not null auto_increment,
+    antares mediumblob,
+    atlasv mediumblob,
+    falcon9 mediumblob,
+    vega mediumblob,
+    primary key (idFoguetes)
+);
+
+create table personagens(
+        idPersonagens int not null auto_increment,
+    astronauta mediumblob,
+    alien mediumblob,
+    yoda mediumblob,
+    babyyoda mediumblob,
+    chewbacca mediumblob,
+    darthvader mediumblob,
+    primary key (idPersonagens)
+);
+
+create table definicoes(
+    def_mercurio mediumtext,
+    def_venus mediumtext,
+    def_terra mediumtext,
+    def_marte mediumtext,
+    def_jupter mediumtext,
+    def_saturno mediumtext,
+    def_urano mediumtext,
+    def_netuno mediumtext,
+    def_estrelinha mediumtext,
+    def_sol mediumtext,
+    def_belatrix mediumtext,
+    def_sirius mediumtext,
+    def_vega mediumtext,
+    def_altair mediumtext,
+    def_hubble mediumtext,
+    def_jameswebb mediumtext,
+    def_spitzer mediumtext,
+    def_kepler mediumtext,
+    def_cheops mediumtext,     
+    def_antares mediumtext,
+    def_atlasv mediumtext,
+    def_falcon9 mediumtext
+);
