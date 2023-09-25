@@ -71,8 +71,7 @@ section{
   width: 14px;
 }
 #fill-color:checked ~ label{
-  color: #2b1d5a;
-  margin-top: -10px;
+  color: #2b1d5a;margin-top: -10px;
 }
 .option #size-slider{
   width: 100%;
@@ -163,4 +162,7 @@ section{
   bottom: 0;
   right: 0;
   pointer-events: none
+}
+#linha1{
+  margin-top: -10px;
 }
