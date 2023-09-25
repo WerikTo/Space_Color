@@ -146,8 +146,12 @@ section{
   background: #6C757D;
 }
 .buttons .save-img{
-  background: #4A98F7;
+  background: #a628ff;
   border: 1px solid #4A98F7;
+}
+.buttons .carregar-img{
+  background: #8556ff;
+  border: 1px solid black;
 }
 .drawing-board{
   flex: 1;
