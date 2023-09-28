@@ -34,7 +34,7 @@ body{
   max-width: 1050px;
 }
 section{
-  background: white;
+  background: #a296ca;
   border-radius: 7px;
 }
 .tools-board{
@@ -125,11 +125,9 @@ section{
   cursor: pointer;
 }
 .buttons button{
-  width: 100%;
   color: #fff;
   border: none;
   outline: none;
-  padding: 11px 0;
   font-size: 0.9rem;
   margin-bottom: 13px;
   background: none;
@@ -140,17 +138,22 @@ section{
   color: #6C757D;
   border: 1px solid #6C757D;
   transition: all 0.3s ease;
+  padding: 11px 0;
+  width: 100%;
 }
 .clear-canvas:hover{
   color: #fff;
   background: #6C757D;
+  padding: 11px 0;
+  width: 100%;
 }
 .buttons .save-img{
-  background: #3a3dff;
-  border: 1px solid #4A98F7;
+
 }
 .buttons .carregar-img{
   background: #8556ff;
+  padding: 11px 0;
+  width: 100%;
 }
 .drawing-board{
   flex: 1;
