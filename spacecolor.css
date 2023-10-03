@@ -135,9 +135,17 @@ section{
   cursor: pointer;
 }
 .buttons .clear-canvas{
+color: #6C757D;
+  border: 1px solid #6C757D;
+  transition: all 0.3s ease;
+  padding: 11px 0;
+  width: 100%;
 }
 .clear-canvas:hover{
-
+  color: #fff;
+  background: #6C757D;
+  padding: 11px 0;
+  width: 100%;
 }
 .buttons .save-img{
 
