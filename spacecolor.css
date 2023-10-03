@@ -135,22 +135,16 @@ section{
   cursor: pointer;
 }
 .buttons .clear-canvas{
-  
-
 }
 .clear-canvas:hover{
   background: #6C757D;
- 
 }
 .buttons .save-img{
-  
-
 }
 .buttons .carregar-img{
   background: #8556ff;
   padding: 11px 0;
   width: 100%;
-  pointer-events: none;
 }
 .drawing-board{
   flex: 1;
