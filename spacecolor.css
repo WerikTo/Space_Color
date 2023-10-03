@@ -140,6 +140,7 @@ section{
   transition: all 0.3s ease;
   padding: 11px 0;
   width: 100%;
+  background: #6959CD;
 }
 .clear-canvas:hover{
   color: #fff;
@@ -153,6 +154,7 @@ section{
   background: #8556ff;
   padding: 11px 0;
   width: 100%;
+  border-radius: 12px;
 }
 .drawing-board{
   flex: 1;
