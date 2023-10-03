@@ -135,14 +135,15 @@ section{
   cursor: pointer;
 }
 .buttons .clear-canvas{
-  pointer-events: none;
+  
 
 }
 .clear-canvas:hover{
+  background: #6C757D;
  
 }
 .buttons .save-img{
-  pointer-events: none;
+  
 
 }
 .buttons .carregar-img{
