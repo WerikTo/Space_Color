@@ -135,24 +135,31 @@ section{
   cursor: pointer;
 }
 .buttons .clear-canvas{
-  color: #6C757D;
+  color: white;
   border: 1px solid #6C757D;
   transition: all 0.3s ease;
   padding: 11px 0;
-  width: 100%;
+  width: 48%;
   background: #6959CD;
 }
-.clear-canvas:hover{
+.clear-canvas .save-img .carregar-img:hover{
   color: #fff;
   background: #6C757D;
 }
 .buttons .save-img{
+  color: white;
+  width: 49%;
+  background: #6959CD;
+  padding: 11px;
+  border: 1px solid #6C757D;
+  transition: all 0.3s ease;
 }
 .buttons .carregar-img{
   background: #8556ff;
   padding: 11px 0;
   width: 100%;
   border-radius: 12px;
+  transition: all 0.3s ease;
 }
 .drawing-board{
   flex: 1;
