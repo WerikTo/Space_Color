@@ -176,4 +176,12 @@ section{
 #linha1{
   margin-top: -10px;
   margin-bottom: 10px;
+  height: 3px;
+  background: white;
+}
+#linha2{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  height: 3px;
+  background: white;
 }
