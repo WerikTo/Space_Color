@@ -142,7 +142,7 @@ section{
   width: 48%;
   background: #6959CD;
 }
-.clear-canvas, .save-img, .carregar-img:hover{
+.clear-canvas:hover{
   color: #fff;
   background: #6C757D;
 }
