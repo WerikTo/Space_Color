@@ -163,6 +163,10 @@ section{
   width: 100%;
   border-radius: 12px;
 }
+.carregar-img{
+  color: #fff;
+  background: #6C757D;
+}
 .drawing-board{
   flex: 1;
   overflow: hidden;
