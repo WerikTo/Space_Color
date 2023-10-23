@@ -47,12 +47,12 @@ const drawCircle = (e) => {
 }
 
 const drawTriangle = (e) => {
-    ctx.beginPath(); // creating new path to draw circle
-    ctx.moveTo(prevMouseX, prevMouseY); // moving triangle to the mouse pointer
-    ctx.lineTo(e.offsetX, e.offsetY); // creating first line according to the mouse pointer
-    ctx.lineTo(prevMouseX * 2 - e.offsetX, e.offsetY); // creating bottom line of triangle
-    ctx.closePath(); // closing path of a triangle so the third line draw automatically
-    fillColor.checked ? ctx.fill() : ctx.stroke(); // if fillColor is checked fill triangle else draw border
+    ctx.beginPath(); //criando um novo caminho para desenhar um triângulo
+    ctx.moveTo(prevMouseX, prevMouseY); // movendo o triângulo para o ponteiro do mouse
+    ctx.lineTo(e.offsetX, e.offsetY); // criando a primeira linha de acordo com o ponteiro do mouse
+    ctx.lineTo(prevMouseX * 2 - e.offsetX, e.offsetY); // criando a linha inferior do triângulo
+    ctx.closePath(); //fechando o caminho de um triângulo para que a terceira linha seja desenhada automaticamente
+    fillColor.checked ? ctx.fill() : ctx.stroke(); // se fillColor estiver marcado, preencha o triângulo, caso contrário, desenhe a borda
 }
 
 const startDraw = (e) => {
