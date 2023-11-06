@@ -145,6 +145,7 @@ section{
 .clear-canvas:hover{
   color: #fff;
   background: #c705ad;
+  border: 1px solid #c705ad;
 }
 .buttons .save-img{
   background: #4A98F7;
