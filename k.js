@@ -8,7 +8,7 @@ function pesquisa() {
         "<img src=https://user-images.githubusercontent.com/115472908/282481477-04ad1011-8d88-49c9-97f5-ef05836ea106.jpg>Vênus é o segundo planeta do sistema Solar mais próximo do Sol. Tem cerca de 800 milhões de anos e além do Sol e da Lua é o corpo celeste mais brilhante no céu, motivo pelo qual é conhecido desde a antiguidade. Também chamado de Estrela Dalva, estrela da manhã, estrela da tarde e joia do céu, é considerado um planeta irmão da Terra. Isso decorre em virtude das similaridades de massa, densidade e volume entre ambos.";
     } else if (personagem == "terra") {
       document.getElementById("resultado").innerHTML =
-        "O Planeta Terra é o terceiro dos oito planetas que fazem parte do Sistema Solar. A partir do Sol: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno. Também chamado de "Planeta Azul", recebe essa denominação posto que grande parte do planeta é formado por água.";
+        "";
     } else if (personagem == "marte") {
       document.getElementById("resultado").innerHTML =
         "";
