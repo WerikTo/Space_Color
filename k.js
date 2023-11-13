@@ -11,7 +11,7 @@ function pesquisa() {
         "<img src=https://user-images.githubusercontent.com/115472908/282549211-b9cc982b-f700-49e4-8ea9-f78d55693c55.png> Segundo os estudos, a Terra se formou há 4,56 bilhões de anos. Inicialmente, o planeta chamado de Proto-Terra sofria com diversas colisões de outros astros que vagavam pelo universo, como a Terra. Uma dessas colisões teria sido a responsável pela formação da Lua. Nesse primeiro momento, a Terra encontrava-se envolta em gás e com uma intensa atividade vulcânica. Ao longo de todo um processo de resfriamento, tornou-se possível a formação da crosta terrestre. O arrefecimento do novo planeta tornou possível a presença de água em estado líquido e, consequentemente, a formação dos oceanos. Desse modo, concluiu-se o processo de formação do planeta Terra, há 4 bilhões de anos.";
     } else if (personagem == "marte") {
       document.getElementById("resultado").innerHTML =
-        "";
+        "<img src=https://user-images.githubusercontent.com/115472908/282551654-83265f3a-b719-42d4-a200-299363b601a8.png> Marte é o quarto planeta mais próximo do Sol e o segundo menor planeta do sistema solar, depois de Mercúrio, sendo consideravelmente menor que o planeta Terra. Apresenta uma coloração avermelhada, pela presença de óxido de ferro na sua superfície. Por isso, recebeu o nome de Marte, em homenagem ao deus romano da guerra.";
     } else if (personagem == "") {
       document.getElementById("resultado").innerHTML =
         "";
