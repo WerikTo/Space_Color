@@ -26,8 +26,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   overflow-x: hidden;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,87,1) 35%,  rgba(2,0,36,1) 86%, rgba(0,0,87,1) 100%);
+  background: url("https://user-images.githubusercontent.com/115472908/282469151-411438ad-f78a-4781-9070-4be949894ac4.gif")
 }
 .container{
   display: flex;
