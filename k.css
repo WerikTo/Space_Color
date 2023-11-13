@@ -1,5 +1,26 @@
+@font-face {
+  font-family: MarykateRegular;
+  src: url(MarykateRegular.ttf);
+}
+@font-face {
+  font-family: BalsamiqSans;
+  src: url(BalsamiqSans-Regular.ttf);
+}
+h1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MarykateRegular";
+  color: #d8cff6;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BalsamiqSans";
+  color: #ffffff;
+}
 body {
-    font-family: 'Comic Sans', cursive;
     min-height: 800px;
     background-image: url();
     background-color: #000000;
