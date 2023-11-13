@@ -36,14 +36,12 @@ body {
   }
 
   #Campo {
-  width: 100%;
-  border: 3px solid #00B4CC;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
+  border: 3px solid #2b1d5a;
+  color: #2b1d5a;
+  }
+
+  button{
+      
   }
   
   .page-title {
