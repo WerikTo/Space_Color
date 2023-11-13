@@ -8,7 +8,7 @@ function pesquisa() {
         "Vênus é o segundo planeta do sistema Solar mais próximo do Sol. Tem cerca de 800 milhões de anos e além do Sol e da Lua é o corpo celeste mais brilhante no céu, motivo pelo qual é conhecido desde a antiguidade. Também chamado de Estrela Dalva, estrela da manhã, estrela da tarde e joia do céu, é considerado um planeta irmão da Terra. Isso decorre em virtude das similaridades de massa, densidade e volume entre ambos. <https://user-images.githubusercontent.com/115472908/282547865-08605518-83fc-4e54-9f34-25fe7d28e6d6.png>";
     } else if (personagem == "terra") {
       document.getElementById("resultado").innerHTML =
-        "";
+        "Segundo os estudos, a Terra se formou há 4,56 bilhões de anos. Inicialmente, o planeta chamado de Proto-Terra sofria com diversas colisões de outros astros que vagavam pelo universo, como a Terra. Uma dessas colisões teria sido a responsável pela formação da Lua. Nesse primeiro momento, a Terra encontrava-se envolta em gás e com uma intensa atividade vulcânica. Ao longo de todo um processo de resfriamento, tornou-se possível a formação da crosta terrestre. O arrefecimento do novo planeta tornou possível a presença de água em estado líquido e, consequentemente, a formação dos oceanos. Desse modo, concluiu-se o processo de formação do planeta Terra, há 4 bilhões de anos. <img src=https://user-images.githubusercontent.com/115472908/282549211-b9cc982b-f700-49e4-8ea9-f78d55693c55.png>";
     } else if (personagem == "marte") {
       document.getElementById("resultado").innerHTML =
         "";
