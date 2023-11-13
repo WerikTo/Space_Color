@@ -26,8 +26,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   overflow-x: hidden;
-  background: url("https://user-images.githubusercontent.com/115472908/282469151-411438ad-f78a-4781-9070-4be949894ac4.gif");
-  background-repeat: no-repeat;
+  background: url("https://user-images.githubusercontent.com/115472908/282475532-b6596427-2b90-449d-ac8b-d83f8b362284.gif");
 }
 .container{
   display: flex;
