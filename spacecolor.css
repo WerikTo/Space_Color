@@ -24,8 +24,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgb(253, 255, 113), rgb(243, 45, 154), #55104f, #2b1055);
-  background-repeat: no-repeat;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,87,1) 35%,  rgba(2,0,36,1) 86%, rgba(0,0,87,1) 100%);
 }
 .container{
   display: flex;
