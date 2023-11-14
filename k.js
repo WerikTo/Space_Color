@@ -15,9 +15,9 @@ function pesquisa() {
     } else if (personagem == "sol") {
       document.getElementById("resultado").innerHTML =
         "<img src=https://user-images.githubusercontent.com/115472908/282765147-31b8e3a4-85cd-439b-a455-e16413970154.png> O Sol é uma estrela com diâmetro de 1 392 700 km, ou seja, 109 vezes maior que o da Terra, com 12 742 km. Isso quer dizer que poderíamos enfileirar 109 planetas Terras ao seu lado. Ele está localizado no centro de nosso sistema planetário, o Sistema Solar.";
-    } else if (personagem == "") {
+    } else if (personagem == "jupiter") {
       document.getElementById("resultado").innerHTML =
-        "";
+        "<img src=https://user-images.githubusercontent.com/115472908/282765800-d87920ed-757b-44a4-a951-a70063cc39bd.png>Júpiter é o maior planeta do Sistema Solar, o quinto a partir do Sol e o quarto corpo celeste mais brilhante no céu – os demais são o Sol, a Lua e Vênus. A massa é 318 vezes superior à da Terra e maior que todos os planetas do Sistema Solar juntos. Tem cerca de 143 mil quilômetros de diâmetro no equador, o que equivale a 11 vezes mais que o diâmetro da Terra. É orbitado por 67 satélites naturais, situando-se a uma distância média de 778,3 milhões de quilômetros do Sol.";
     } else if ((personagem == "") | (personagem == "")) {
       document.getElementById("resultado").innerHTML =
         "";
