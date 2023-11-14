@@ -21,7 +21,7 @@ function pesquisa() {
     } else if ((personagem == "") | (personagem == "")) {
       document.getElementById("resultado").innerHTML =
         "";
-    } else if (personagem == "") {
+    } else if (personagem == "saturno") {
       document.getElementById("resultado").innerHTML =
         "<img src=https://user-images.githubusercontent.com/115472908/282766567-f2586640-136e-4b7c-afc6-eadecec27cdc.png>Saturno é o sexto planeta a partir do Sol, e o segundo maior do sistema solar. O primeiro é Júpiter. É conhecido pelo complexo sistema de anéis formados principalmente por gelo e poeira cósmica e possui 53 luas conhecidas e outras nove em pesquisa. O diâmetro de Saturno é de 119,3 mil quilômetros e o seu volume é 755 vezes maior que a Terra. Possui uma das mais rápidas rotações do Sistema Solar de oeste para leste, demorando 10 horas e 39 minutos para dar a volta sobre si mesmo.";
     } else if (personagem == "") {
