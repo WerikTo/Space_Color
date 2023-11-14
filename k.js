@@ -14,7 +14,7 @@ function pesquisa() {
         "<img src=https://user-images.githubusercontent.com/115472908/282551654-83265f3a-b719-42d4-a200-299363b601a8.png> Marte é o quarto planeta mais próximo do Sol e o segundo menor planeta do sistema solar, depois de Mercúrio, sendo consideravelmente menor que o planeta Terra. Apresenta uma coloração avermelhada, pela presença de óxido de ferro na sua superfície. Por isso, recebeu o nome de Marte, em homenagem ao deus romano da guerra.";
     } else if (personagem == "sol") {
       document.getElementById("resultado").innerHTML =
-        "<img src=> O Sol é uma estrela com diâmetro de 1 392 700 km, ou seja, 109 vezes maior que o da Terra, com 12 742 km. Isso quer dizer que poderíamos enfileirar 109 planetas Terras ao seu lado. Ele está localizado no centro de nosso sistema planetário, o Sistema Solar.";
+        "<img src=https://user-images.githubusercontent.com/115472908/282765147-31b8e3a4-85cd-439b-a455-e16413970154.png> O Sol é uma estrela com diâmetro de 1 392 700 km, ou seja, 109 vezes maior que o da Terra, com 12 742 km. Isso quer dizer que poderíamos enfileirar 109 planetas Terras ao seu lado. Ele está localizado no centro de nosso sistema planetário, o Sistema Solar.";
     } else if (personagem == "") {
       document.getElementById("resultado").innerHTML =
         "";
