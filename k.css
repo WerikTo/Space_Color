@@ -125,35 +125,5 @@ button:active {
   }
 
 
-form {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  position: relative;
-  display: flex;
-  align-items: center;
 
-search__input {
-    width: 20.4rem;
-    height: 4rem;
-    border: none;
-    border-radius: 1rem;
-    font-size: 1.4rem;
-    padding-left: 3.8rem;
-    box-shadow: $inner-shadow;
-    background: none;
-    font-family: inherit;
-    color: var(--greyDark);
-
-    &::placeholder { color: var(--greyLight-3); }
-    &:focus { 
-      outline: none; 
-      box-shadow: $shadow; 
-
-       + .search__icon {
-        color: var(--primary);
-      }
-    }
-  }
-
- 
 
