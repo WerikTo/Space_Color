@@ -125,14 +125,14 @@ button:active {
   }
 
 
-.search {
+form {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   position: relative;
   display: flex;
   align-items: center;
 
-  &__input {
+search__input {
     width: 20.4rem;
     height: 4rem;
     border: none;
@@ -155,14 +155,5 @@ button:active {
     }
   }
 
-  &__icon {
-    height: 2rem;
-    position: absolute;
-    font-size: 2rem;
-    padding: 0 1rem;
-    display: flex;
-    color: var(--greyDark);
-    transition: .3s ease;
-  }
-}
+ 
 
